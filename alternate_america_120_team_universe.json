@@ -1,0 +1,4052 @@
+{
+  "format": "CBB_Simulator_Custom_League",
+  "format_version": "1.0",
+  "universe_name": "Alternate America College Basketball Universe",
+  "season": "2026-27",
+  "description": "120 fictional colleges located in real U.S. states and cities.",
+  "settings": {
+    "teams": 120,
+    "conferences": 10,
+    "prestige_scale": 100,
+    "real_colleges": false,
+    "real_geography": true
+  },
+  "conferences": [
+    {
+      "id": "southeastern_conference",
+      "name": "Southeastern Conference",
+      "prestige": 90,
+      "prestige_out_of": 100,
+      "region": "Southeast",
+      "team_count": 12
+    },
+    {
+      "id": "northern_conference",
+      "name": "Northern Conference",
+      "prestige": 100,
+      "prestige_out_of": 100,
+      "region": "Northern United States",
+      "team_count": 12
+    },
+    {
+      "id": "new_england_conference",
+      "name": "New England Conference",
+      "prestige": 70,
+      "prestige_out_of": 100,
+      "region": "New England",
+      "team_count": 12
+    },
+    {
+      "id": "appalachia_conference",
+      "name": "Appalachia Conference",
+      "prestige": 50,
+      "prestige_out_of": 100,
+      "region": "Appalachian Region",
+      "team_count": 12
+    },
+    {
+      "id": "rocky_conference",
+      "name": "Rocky Conference",
+      "prestige": 60,
+      "prestige_out_of": 100,
+      "region": "Rocky Mountain Region",
+      "team_count": 12
+    },
+    {
+      "id": "midwest_conference",
+      "name": "Midwest Conference",
+      "prestige": 70,
+      "prestige_out_of": 100,
+      "region": "Midwest",
+      "team_count": 12
+    },
+    {
+      "id": "atlantic_conference",
+      "name": "Atlantic Conference",
+      "prestige": 80,
+      "prestige_out_of": 100,
+      "region": "Mid-Atlantic/East Coast",
+      "team_count": 12
+    },
+    {
+      "id": "pacific_conference",
+      "name": "Pacific Conference",
+      "prestige": 80,
+      "prestige_out_of": 100,
+      "region": "Pacific Coast",
+      "team_count": 12
+    },
+    {
+      "id": "midsouth_conference",
+      "name": "Midsouth Conference",
+      "prestige": 70,
+      "prestige_out_of": 100,
+      "region": "South-Central",
+      "team_count": 12
+    },
+    {
+      "id": "gulf_coast_conference",
+      "name": "Gulf Coast Conference",
+      "prestige": 30,
+      "prestige_out_of": 100,
+      "region": "Gulf Coast",
+      "team_count": 12
+    }
+  ],
+  "teams": [
+    {
+      "id": "carolina_dominion_university",
+      "school": "Carolina Dominion University",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "nickname": "Monarchs",
+      "conference": "Southeastern Conference",
+      "conference_id": "southeastern_conference",
+      "prestige": 92,
+      "prestige_out_of": 100,
+      "colors": [
+        "Royal Blue",
+        "Gold"
+      ],
+      "arena": "Monarchs Arena",
+      "arena_capacity": 18400,
+      "region": "Southeast",
+      "logo": "logos/carolina_dominion_university.svg",
+      "offensive_style": "Motion",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_001",
+        "rivalry_005",
+        "rivalry_030"
+      ]
+    },
+    {
+      "id": "tennessee_valley_university",
+      "school": "Tennessee Valley University",
+      "city": "Knoxville",
+      "state": "Tennessee",
+      "nickname": "Mountaineers",
+      "conference": "Southeastern Conference",
+      "conference_id": "southeastern_conference",
+      "prestige": 90,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "Orange"
+      ],
+      "arena": "Mountaineers Arena",
+      "arena_capacity": 16800,
+      "region": "Southeast",
+      "logo": "logos/tennessee_valley_university.svg",
+      "offensive_style": "4-Out 1-In",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_001",
+        "rivalry_002",
+        "rivalry_027"
+      ]
+    },
+    {
+      "id": "georgia_southern_tech",
+      "school": "Georgia Southern Tech",
+      "city": "Macon",
+      "state": "Georgia",
+      "nickname": "Thunderhawks",
+      "conference": "Southeastern Conference",
+      "conference_id": "southeastern_conference",
+      "prestige": 84,
+      "prestige_out_of": 100,
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "arena": "Thunderhawks Arena",
+      "arena_capacity": 15200,
+      "region": "Southeast",
+      "logo": "logos/georgia_southern_tech.svg",
+      "offensive_style": "Pace-and-Space",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_003"
+      ]
+    },
+    {
+      "id": "alabama_central_university",
+      "school": "Alabama Central University",
+      "city": "Birmingham",
+      "state": "Alabama",
+      "nickname": "Stallions",
+      "conference": "Southeastern Conference",
+      "conference_id": "southeastern_conference",
+      "prestige": 82,
+      "prestige_out_of": 100,
+      "colors": [
+        "Crimson",
+        "Silver"
+      ],
+      "arena": "Stallions Arena",
+      "arena_capacity": 14900,
+      "region": "Southeast",
+      "logo": "logos/alabama_central_university.svg",
+      "offensive_style": "Princeton",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_007"
+      ]
+    },
+    {
+      "id": "florida_atlantic_state",
+      "school": "Florida Atlantic State",
+      "city": "Gainesville",
+      "state": "Florida",
+      "nickname": "Gators",
+      "conference": "Southeastern Conference",
+      "conference_id": "southeastern_conference",
+      "prestige": 81,
+      "prestige_out_of": 100,
+      "colors": [
+        "Orange",
+        "Navy"
+      ],
+      "arena": "Gators Arena",
+      "arena_capacity": 15600,
+      "region": "Southeast",
+      "logo": "logos/florida_atlantic_state.svg",
+      "offensive_style": "Fast Break",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_003",
+        "rivalry_004",
+        "rivalry_029"
+      ]
+    },
+    {
+      "id": "south_carolina_polytechnic",
+      "school": "South Carolina Polytechnic",
+      "city": "Columbia",
+      "state": "South Carolina",
+      "nickname": "Paladins",
+      "conference": "Southeastern Conference",
+      "conference_id": "southeastern_conference",
+      "prestige": 74,
+      "prestige_out_of": 100,
+      "colors": [
+        "Garnet",
+        "Black"
+      ],
+      "arena": "Paladins Arena",
+      "arena_capacity": 13700,
+      "region": "Southeast",
+      "logo": "logos/south_carolina_polytechnic.svg",
+      "offensive_style": "Post-Centric",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_005"
+      ]
+    },
+    {
+      "id": "kentucky_commonwealth",
+      "school": "Kentucky Commonwealth",
+      "city": "Lexington",
+      "state": "Kentucky",
+      "nickname": "Thoroughbreds",
+      "conference": "Southeastern Conference",
+      "conference_id": "southeastern_conference",
+      "prestige": 73,
+      "prestige_out_of": 100,
+      "colors": [
+        "Blue",
+        "White"
+      ],
+      "arena": "Thoroughbreds Arena",
+      "arena_capacity": 14100,
+      "region": "Southeast",
+      "logo": "logos/kentucky_commonwealth.svg",
+      "offensive_style": "Flex",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_002",
+        "rivalry_028"
+      ]
+    },
+    {
+      "id": "mississippi_delta_university",
+      "school": "Mississippi Delta University",
+      "city": "Jackson",
+      "state": "Mississippi",
+      "nickname": "Riverhawks",
+      "conference": "Southeastern Conference",
+      "conference_id": "southeastern_conference",
+      "prestige": 64,
+      "prestige_out_of": 100,
+      "colors": [
+        "Maroon",
+        "Gold"
+      ],
+      "arena": "Riverhawks Arena",
+      "arena_capacity": 11800,
+      "region": "Southeast",
+      "logo": "logos/mississippi_delta_university.svg",
+      "offensive_style": "Triangle",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_006"
+      ]
+    },
+    {
+      "id": "arkansas_valley_college",
+      "school": "Arkansas Valley College",
+      "city": "Little Rock",
+      "state": "Arkansas",
+      "nickname": "Razorbacks",
+      "conference": "Southeastern Conference",
+      "conference_id": "southeastern_conference",
+      "prestige": 61,
+      "prestige_out_of": 100,
+      "colors": [
+        "Cardinal",
+        "White"
+      ],
+      "arena": "Razorbacks Arena",
+      "arena_capacity": 10900,
+      "region": "Southeast",
+      "logo": "logos/arkansas_valley_college.svg",
+      "offensive_style": "Motion",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_006"
+      ]
+    },
+    {
+      "id": "louisiana_southern_university",
+      "school": "Louisiana Southern University",
+      "city": "Baton Rouge",
+      "state": "Louisiana",
+      "nickname": "Pelicans",
+      "conference": "Southeastern Conference",
+      "conference_id": "southeastern_conference",
+      "prestige": 52,
+      "prestige_out_of": 100,
+      "colors": [
+        "Purple",
+        "Gold"
+      ],
+      "arena": "Pelicans Arena",
+      "arena_capacity": 12400,
+      "region": "Southeast",
+      "logo": "logos/louisiana_southern_university.svg",
+      "offensive_style": "4-Out 1-In",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_007"
+      ]
+    },
+    {
+      "id": "east_tennessee_college",
+      "school": "East Tennessee College",
+      "city": "Johnson City",
+      "state": "Tennessee",
+      "nickname": "Timberwolves",
+      "conference": "Southeastern Conference",
+      "conference_id": "southeastern_conference",
+      "prestige": 43,
+      "prestige_out_of": 100,
+      "colors": [
+        "Forest Green",
+        "Gold"
+      ],
+      "arena": "Timberwolves Arena",
+      "arena_capacity": 9600,
+      "region": "Southeast",
+      "logo": "logos/east_tennessee_college.svg",
+      "offensive_style": "Pace-and-Space",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_032"
+      ]
+    },
+    {
+      "id": "florida_panhandle_university",
+      "school": "Florida Panhandle University",
+      "city": "Tallahassee",
+      "state": "Florida",
+      "nickname": "Sharks",
+      "conference": "Southeastern Conference",
+      "conference_id": "southeastern_conference",
+      "prestige": 34,
+      "prestige_out_of": 100,
+      "colors": [
+        "Teal",
+        "Black"
+      ],
+      "arena": "Sharks Arena",
+      "arena_capacity": 8700,
+      "region": "Southeast",
+      "logo": "logos/florida_panhandle_university.svg",
+      "offensive_style": "Princeton",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_004",
+        "rivalry_032"
+      ]
+    },
+    {
+      "id": "great_lakes_national_university",
+      "school": "Great Lakes National University",
+      "city": "Detroit",
+      "state": "Michigan",
+      "nickname": "Titans",
+      "conference": "Northern Conference",
+      "conference_id": "northern_conference",
+      "prestige": 98,
+      "prestige_out_of": 100,
+      "colors": [
+        "Midnight Blue",
+        "Silver"
+      ],
+      "arena": "Titans Arena",
+      "arena_capacity": 21000,
+      "region": "Northern United States",
+      "logo": "logos/great_lakes_national_university.svg",
+      "offensive_style": "Fast Break",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_008",
+        "rivalry_009"
+      ]
+    },
+    {
+      "id": "empire_state_university",
+      "school": "Empire State University",
+      "city": "Albany",
+      "state": "New York",
+      "nickname": "Sentinels",
+      "conference": "Northern Conference",
+      "conference_id": "northern_conference",
+      "prestige": 96,
+      "prestige_out_of": 100,
+      "colors": [
+        "Royal Blue",
+        "Gold"
+      ],
+      "arena": "Sentinels Arena",
+      "arena_capacity": 19800,
+      "region": "Northern United States",
+      "logo": "logos/empire_state_university.svg",
+      "offensive_style": "Post-Centric",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_008",
+        "rivalry_010"
+      ]
+    },
+    {
+      "id": "pennsylvania_commonwealth_university",
+      "school": "Pennsylvania Commonwealth University",
+      "city": "Pittsburgh",
+      "state": "Pennsylvania",
+      "nickname": "Founders",
+      "conference": "Northern Conference",
+      "conference_id": "northern_conference",
+      "prestige": 94,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "White"
+      ],
+      "arena": "Founders Arena",
+      "arena_capacity": 18500,
+      "region": "Northern United States",
+      "logo": "logos/pennsylvania_commonwealth_university.svg",
+      "offensive_style": "Flex",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_010"
+      ]
+    },
+    {
+      "id": "ohio_northern_institute",
+      "school": "Ohio Northern Institute",
+      "city": "Cleveland",
+      "state": "Ohio",
+      "nickname": "Lakers",
+      "conference": "Northern Conference",
+      "conference_id": "northern_conference",
+      "prestige": 92,
+      "prestige_out_of": 100,
+      "colors": [
+        "Scarlet",
+        "Silver"
+      ],
+      "arena": "Lakers Arena",
+      "arena_capacity": 17600,
+      "region": "Northern United States",
+      "logo": "logos/ohio_northern_institute.svg",
+      "offensive_style": "Triangle",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_009"
+      ]
+    },
+    {
+      "id": "michigan_lakes_university",
+      "school": "Michigan Lakes University",
+      "city": "Grand Rapids",
+      "state": "Michigan",
+      "nickname": "Voyagers",
+      "conference": "Northern Conference",
+      "conference_id": "northern_conference",
+      "prestige": 88,
+      "prestige_out_of": 100,
+      "colors": [
+        "Green",
+        "Gold"
+      ],
+      "arena": "Voyagers Arena",
+      "arena_capacity": 16400,
+      "region": "Northern United States",
+      "logo": "logos/michigan_lakes_university.svg",
+      "offensive_style": "Motion",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_033"
+      ]
+    },
+    {
+      "id": "illinois_metropolitan_university",
+      "school": "Illinois Metropolitan University",
+      "city": "Chicago",
+      "state": "Illinois",
+      "nickname": "Comets",
+      "conference": "Northern Conference",
+      "conference_id": "northern_conference",
+      "prestige": 87,
+      "prestige_out_of": 100,
+      "colors": [
+        "Maroon",
+        "Silver"
+      ],
+      "arena": "Comets Arena",
+      "arena_capacity": 17200,
+      "region": "Northern United States",
+      "logo": "logos/illinois_metropolitan_university.svg",
+      "offensive_style": "4-Out 1-In",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_033"
+      ]
+    },
+    {
+      "id": "indiana_central_college",
+      "school": "Indiana Central College",
+      "city": "Indianapolis",
+      "state": "Indiana",
+      "nickname": "Generals",
+      "conference": "Northern Conference",
+      "conference_id": "northern_conference",
+      "prestige": 84,
+      "prestige_out_of": 100,
+      "colors": [
+        "Crimson",
+        "Cream"
+      ],
+      "arena": "Generals Arena",
+      "arena_capacity": 15100,
+      "region": "Northern United States",
+      "logo": "logos/indiana_central_college.svg",
+      "offensive_style": "Pace-and-Space",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_034"
+      ]
+    },
+    {
+      "id": "wisconsin_state_university",
+      "school": "Wisconsin State University",
+      "city": "Madison",
+      "state": "Wisconsin",
+      "nickname": "Timberjacks",
+      "conference": "Northern Conference",
+      "conference_id": "northern_conference",
+      "prestige": 81,
+      "prestige_out_of": 100,
+      "colors": [
+        "Forest Green",
+        "White"
+      ],
+      "arena": "Timberjacks Arena",
+      "arena_capacity": 14600,
+      "region": "Northern United States",
+      "logo": "logos/wisconsin_state_university.svg",
+      "offensive_style": "Princeton",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_034"
+      ]
+    },
+    {
+      "id": "minnesota_north_university",
+      "school": "Minnesota North University",
+      "city": "Minneapolis",
+      "state": "Minnesota",
+      "nickname": "Wolves",
+      "conference": "Northern Conference",
+      "conference_id": "northern_conference",
+      "prestige": 78,
+      "prestige_out_of": 100,
+      "colors": [
+        "Maroon",
+        "Gold"
+      ],
+      "arena": "Wolves Arena",
+      "arena_capacity": 13800,
+      "region": "Northern United States",
+      "logo": "logos/minnesota_north_university.svg",
+      "offensive_style": "Fast Break",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_035"
+      ]
+    },
+    {
+      "id": "dakota_commonwealth",
+      "school": "Dakota Commonwealth",
+      "city": "Fargo",
+      "state": "North Dakota",
+      "nickname": "Bison",
+      "conference": "Northern Conference",
+      "conference_id": "northern_conference",
+      "prestige": 70,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "Silver"
+      ],
+      "arena": "Bison Arena",
+      "arena_capacity": 11200,
+      "region": "Northern United States",
+      "logo": "logos/dakota_commonwealth.svg",
+      "offensive_style": "Post-Centric",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_035"
+      ]
+    },
+    {
+      "id": "maine_northern_college",
+      "school": "Maine Northern College",
+      "city": "Bangor",
+      "state": "Maine",
+      "nickname": "Lumberjacks",
+      "conference": "Northern Conference",
+      "conference_id": "northern_conference",
+      "prestige": 61,
+      "prestige_out_of": 100,
+      "colors": [
+        "Pine Green",
+        "White"
+      ],
+      "arena": "Lumberjacks Arena",
+      "arena_capacity": 9200,
+      "region": "Northern United States",
+      "logo": "logos/maine_northern_college.svg",
+      "offensive_style": "Flex",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_036"
+      ]
+    },
+    {
+      "id": "vermont_highlands_university",
+      "school": "Vermont Highlands University",
+      "city": "Burlington",
+      "state": "Vermont",
+      "nickname": "Mountaineers",
+      "conference": "Northern Conference",
+      "conference_id": "northern_conference",
+      "prestige": 57,
+      "prestige_out_of": 100,
+      "colors": [
+        "Green",
+        "Gold"
+      ],
+      "arena": "Mountaineers Arena",
+      "arena_capacity": 8800,
+      "region": "Northern United States",
+      "logo": "logos/vermont_highlands_university.svg",
+      "offensive_style": "Triangle",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_036"
+      ]
+    },
+    {
+      "id": "new_england_commonwealth",
+      "school": "New England Commonwealth",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "nickname": "Revolution",
+      "conference": "New England Conference",
+      "conference_id": "new_england_conference",
+      "prestige": 86,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "Crimson"
+      ],
+      "arena": "Revolution Arena",
+      "arena_capacity": 17000,
+      "region": "New England",
+      "logo": "logos/new_england_commonwealth.svg",
+      "offensive_style": "Motion",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_011",
+        "rivalry_041"
+      ]
+    },
+    {
+      "id": "connecticut_valley_university",
+      "school": "Connecticut Valley University",
+      "city": "Hartford",
+      "state": "Connecticut",
+      "nickname": "Huskies",
+      "conference": "New England Conference",
+      "conference_id": "new_england_conference",
+      "prestige": 82,
+      "prestige_out_of": 100,
+      "colors": [
+        "Blue",
+        "White"
+      ],
+      "arena": "Huskies Arena",
+      "arena_capacity": 14500,
+      "region": "New England",
+      "logo": "logos/connecticut_valley_university.svg",
+      "offensive_style": "4-Out 1-In",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_011"
+      ]
+    },
+    {
+      "id": "rhode_island_maritime",
+      "school": "Rhode Island Maritime",
+      "city": "Providence",
+      "state": "Rhode Island",
+      "nickname": "Captains",
+      "conference": "New England Conference",
+      "conference_id": "new_england_conference",
+      "prestige": 76,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "Seafoam"
+      ],
+      "arena": "Captains Arena",
+      "arena_capacity": 11200,
+      "region": "New England",
+      "logo": "logos/rhode_island_maritime.svg",
+      "offensive_style": "Pace-and-Space",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_037"
+      ]
+    },
+    {
+      "id": "massachusetts_institute_of_sport",
+      "school": "Massachusetts Institute of Sport",
+      "city": "Worcester",
+      "state": "Massachusetts",
+      "nickname": "Knights",
+      "conference": "New England Conference",
+      "conference_id": "new_england_conference",
+      "prestige": 74,
+      "prestige_out_of": 100,
+      "colors": [
+        "Purple",
+        "Silver"
+      ],
+      "arena": "Knights Arena",
+      "arena_capacity": 12000,
+      "region": "New England",
+      "logo": "logos/massachusetts_institute_of_sport.svg",
+      "offensive_style": "Princeton",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_037"
+      ]
+    },
+    {
+      "id": "granite_state_university",
+      "school": "Granite State University",
+      "city": "Manchester",
+      "state": "New Hampshire",
+      "nickname": "Granite",
+      "conference": "New England Conference",
+      "conference_id": "new_england_conference",
+      "prestige": 70,
+      "prestige_out_of": 100,
+      "colors": [
+        "Blue",
+        "Gray"
+      ],
+      "arena": "Granite Arena",
+      "arena_capacity": 9800,
+      "region": "New England",
+      "logo": "logos/granite_state_university.svg",
+      "offensive_style": "Fast Break",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_038"
+      ]
+    },
+    {
+      "id": "maine_coastal_university",
+      "school": "Maine Coastal University",
+      "city": "Portland",
+      "state": "Maine",
+      "nickname": "Lobsters",
+      "conference": "New England Conference",
+      "conference_id": "new_england_conference",
+      "prestige": 67,
+      "prestige_out_of": 100,
+      "colors": [
+        "Red",
+        "Navy"
+      ],
+      "arena": "Lobsters Arena",
+      "arena_capacity": 10500,
+      "region": "New England",
+      "logo": "logos/maine_coastal_university.svg",
+      "offensive_style": "Post-Centric",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_012",
+        "rivalry_038"
+      ]
+    },
+    {
+      "id": "vermont_state_college",
+      "school": "Vermont State College",
+      "city": "Montpelier",
+      "state": "Vermont",
+      "nickname": "Foxes",
+      "conference": "New England Conference",
+      "conference_id": "new_england_conference",
+      "prestige": 65,
+      "prestige_out_of": 100,
+      "colors": [
+        "Green",
+        "White"
+      ],
+      "arena": "Foxes Arena",
+      "arena_capacity": 8500,
+      "region": "New England",
+      "logo": "logos/vermont_state_college.svg",
+      "offensive_style": "Flex",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_039"
+      ]
+    },
+    {
+      "id": "connecticut_shore_university",
+      "school": "Connecticut Shore University",
+      "city": "New Haven",
+      "state": "Connecticut",
+      "nickname": "Harborhawks",
+      "conference": "New England Conference",
+      "conference_id": "new_england_conference",
+      "prestige": 63,
+      "prestige_out_of": 100,
+      "colors": [
+        "Teal",
+        "Navy"
+      ],
+      "arena": "Harborhawks Arena",
+      "arena_capacity": 9100,
+      "region": "New England",
+      "logo": "logos/connecticut_shore_university.svg",
+      "offensive_style": "Triangle",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_039"
+      ]
+    },
+    {
+      "id": "pine_tree_college",
+      "school": "Pine Tree College",
+      "city": "Bangor",
+      "state": "Maine",
+      "nickname": "Owls",
+      "conference": "New England Conference",
+      "conference_id": "new_england_conference",
+      "prestige": 58,
+      "prestige_out_of": 100,
+      "colors": [
+        "Gold",
+        "Black"
+      ],
+      "arena": "Owls Arena",
+      "arena_capacity": 7600,
+      "region": "New England",
+      "logo": "logos/pine_tree_college.svg",
+      "offensive_style": "Motion",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_012"
+      ]
+    },
+    {
+      "id": "bay_state_university",
+      "school": "Bay State University",
+      "city": "Springfield",
+      "state": "Massachusetts",
+      "nickname": "Falcons",
+      "conference": "New England Conference",
+      "conference_id": "new_england_conference",
+      "prestige": 55,
+      "prestige_out_of": 100,
+      "colors": [
+        "Maroon",
+        "Gold"
+      ],
+      "arena": "Falcons Arena",
+      "arena_capacity": 8200,
+      "region": "New England",
+      "logo": "logos/bay_state_university.svg",
+      "offensive_style": "4-Out 1-In",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_040"
+      ]
+    },
+    {
+      "id": "new_hampshire_polytechnic",
+      "school": "New Hampshire Polytechnic",
+      "city": "Concord",
+      "state": "New Hampshire",
+      "nickname": "Stags",
+      "conference": "New England Conference",
+      "conference_id": "new_england_conference",
+      "prestige": 50,
+      "prestige_out_of": 100,
+      "colors": [
+        "Forest Green",
+        "White"
+      ],
+      "arena": "Stags Arena",
+      "arena_capacity": 7200,
+      "region": "New England",
+      "logo": "logos/new_hampshire_polytechnic.svg",
+      "offensive_style": "Pace-and-Space",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_040"
+      ]
+    },
+    {
+      "id": "ocean_state_college",
+      "school": "Ocean State College",
+      "city": "Newport",
+      "state": "Rhode Island",
+      "nickname": "Waves",
+      "conference": "New England Conference",
+      "conference_id": "new_england_conference",
+      "prestige": 46,
+      "prestige_out_of": 100,
+      "colors": [
+        "Royal Blue",
+        "Gold"
+      ],
+      "arena": "Waves Arena",
+      "arena_capacity": 6900,
+      "region": "New England",
+      "logo": "logos/ocean_state_college.svg",
+      "offensive_style": "Princeton",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_041"
+      ]
+    },
+    {
+      "id": "blue_ridge_university",
+      "school": "Blue Ridge University",
+      "city": "Asheville",
+      "state": "North Carolina",
+      "nickname": "Bears",
+      "conference": "Appalachia Conference",
+      "conference_id": "appalachia_conference",
+      "prestige": 76,
+      "prestige_out_of": 100,
+      "colors": [
+        "Royal Blue",
+        "Gold"
+      ],
+      "arena": "Bears Arena",
+      "arena_capacity": 12500,
+      "region": "Appalachian Region",
+      "logo": "logos/blue_ridge_university.svg",
+      "offensive_style": "Fast Break",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_013",
+        "rivalry_030",
+        "rivalry_046"
+      ]
+    },
+    {
+      "id": "appalachian_commonwealth",
+      "school": "Appalachian Commonwealth",
+      "city": "Charleston",
+      "state": "West Virginia",
+      "nickname": "Miners",
+      "conference": "Appalachia Conference",
+      "conference_id": "appalachia_conference",
+      "prestige": 72,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "Gold"
+      ],
+      "arena": "Miners Arena",
+      "arena_capacity": 11800,
+      "region": "Appalachian Region",
+      "logo": "logos/appalachian_commonwealth.svg",
+      "offensive_style": "Post-Centric",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_013"
+      ]
+    },
+    {
+      "id": "cumberland_state_university",
+      "school": "Cumberland State University",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "nickname": "Ravens",
+      "conference": "Appalachia Conference",
+      "conference_id": "appalachia_conference",
+      "prestige": 69,
+      "prestige_out_of": 100,
+      "colors": [
+        "Purple",
+        "Silver"
+      ],
+      "arena": "Ravens Arena",
+      "arena_capacity": 10900,
+      "region": "Appalachian Region",
+      "logo": "logos/cumberland_state_university.svg",
+      "offensive_style": "Flex",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_014",
+        "rivalry_027"
+      ]
+    },
+    {
+      "id": "mountain_carolina_college",
+      "school": "Mountain Carolina College",
+      "city": "Greensboro",
+      "state": "North Carolina",
+      "nickname": "Mountaineers",
+      "conference": "Appalachia Conference",
+      "conference_id": "appalachia_conference",
+      "prestige": 65,
+      "prestige_out_of": 100,
+      "colors": [
+        "Green",
+        "Gold"
+      ],
+      "arena": "Mountaineers Arena",
+      "arena_capacity": 10200,
+      "region": "Appalachian Region",
+      "logo": "logos/mountain_carolina_college.svg",
+      "offensive_style": "Triangle",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_042"
+      ]
+    },
+    {
+      "id": "virginia_highlands_university",
+      "school": "Virginia Highlands University",
+      "city": "Roanoke",
+      "state": "Virginia",
+      "nickname": "Highlanders",
+      "conference": "Appalachia Conference",
+      "conference_id": "appalachia_conference",
+      "prestige": 62,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "Sky Blue"
+      ],
+      "arena": "Highlanders Arena",
+      "arena_capacity": 9500,
+      "region": "Appalachian Region",
+      "logo": "logos/virginia_highlands_university.svg",
+      "offensive_style": "Motion",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_042"
+      ]
+    },
+    {
+      "id": "kentucky_mountain_state",
+      "school": "Kentucky Mountain State",
+      "city": "Pikeville",
+      "state": "Kentucky",
+      "nickname": "Wildcats",
+      "conference": "Appalachia Conference",
+      "conference_id": "appalachia_conference",
+      "prestige": 59,
+      "prestige_out_of": 100,
+      "colors": [
+        "Blue",
+        "Silver"
+      ],
+      "arena": "Wildcats Arena",
+      "arena_capacity": 9000,
+      "region": "Appalachian Region",
+      "logo": "logos/kentucky_mountain_state.svg",
+      "offensive_style": "4-Out 1-In",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_043"
+      ]
+    },
+    {
+      "id": "tennessee_ridge_college",
+      "school": "Tennessee Ridge College",
+      "city": "Chattanooga",
+      "state": "Tennessee",
+      "nickname": "Ridgehawks",
+      "conference": "Appalachia Conference",
+      "conference_id": "appalachia_conference",
+      "prestige": 55,
+      "prestige_out_of": 100,
+      "colors": [
+        "Orange",
+        "Black"
+      ],
+      "arena": "Ridgehawks Arena",
+      "arena_capacity": 8400,
+      "region": "Appalachian Region",
+      "logo": "logos/tennessee_ridge_college.svg",
+      "offensive_style": "Pace-and-Space",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_014",
+        "rivalry_043"
+      ]
+    },
+    {
+      "id": "ohio_valley_university",
+      "school": "Ohio Valley University",
+      "city": "Parkersburg",
+      "state": "West Virginia",
+      "nickname": "River Kings",
+      "conference": "Appalachia Conference",
+      "conference_id": "appalachia_conference",
+      "prestige": 51,
+      "prestige_out_of": 100,
+      "colors": [
+        "Blue",
+        "White"
+      ],
+      "arena": "River Kings Arena",
+      "arena_capacity": 7800,
+      "region": "Appalachian Region",
+      "logo": "logos/ohio_valley_university.svg",
+      "offensive_style": "Princeton",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_044"
+      ]
+    },
+    {
+      "id": "smoky_mountain_college",
+      "school": "Smoky Mountain College",
+      "city": "Gatlinburg",
+      "state": "Tennessee",
+      "nickname": "Bears",
+      "conference": "Appalachia Conference",
+      "conference_id": "appalachia_conference",
+      "prestige": 46,
+      "prestige_out_of": 100,
+      "colors": [
+        "Brown",
+        "Gold"
+      ],
+      "arena": "Bears Arena",
+      "arena_capacity": 6200,
+      "region": "Appalachian Region",
+      "logo": "logos/smoky_mountain_college.svg",
+      "offensive_style": "Fast Break",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_044"
+      ]
+    },
+    {
+      "id": "allegheny_state",
+      "school": "Allegheny State",
+      "city": "Harrisonburg",
+      "state": "Virginia",
+      "nickname": "Mountains",
+      "conference": "Appalachia Conference",
+      "conference_id": "appalachia_conference",
+      "prestige": 43,
+      "prestige_out_of": 100,
+      "colors": [
+        "Forest Green",
+        "White"
+      ],
+      "arena": "Mountains Arena",
+      "arena_capacity": 7300,
+      "region": "Appalachian Region",
+      "logo": "logos/allegheny_state.svg",
+      "offensive_style": "Post-Centric",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_045"
+      ]
+    },
+    {
+      "id": "bluegrass_valley_college",
+      "school": "Bluegrass Valley College",
+      "city": "Lexington",
+      "state": "Kentucky",
+      "nickname": "Stallions",
+      "conference": "Appalachia Conference",
+      "conference_id": "appalachia_conference",
+      "prestige": 38,
+      "prestige_out_of": 100,
+      "colors": [
+        "Royal Blue",
+        "White"
+      ],
+      "arena": "Stallions Arena",
+      "arena_capacity": 6800,
+      "region": "Appalachian Region",
+      "logo": "logos/bluegrass_valley_college.svg",
+      "offensive_style": "Flex",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_028",
+        "rivalry_045"
+      ]
+    },
+    {
+      "id": "coal_country_university",
+      "school": "Coal Country University",
+      "city": "Beckley",
+      "state": "West Virginia",
+      "nickname": "Miners",
+      "conference": "Appalachia Conference",
+      "conference_id": "appalachia_conference",
+      "prestige": 32,
+      "prestige_out_of": 100,
+      "colors": [
+        "Black",
+        "Gold"
+      ],
+      "arena": "Miners Arena",
+      "arena_capacity": 6000,
+      "region": "Appalachian Region",
+      "logo": "logos/coal_country_university.svg",
+      "offensive_style": "Triangle",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_046"
+      ]
+    },
+    {
+      "id": "front_range_university",
+      "school": "Front Range University",
+      "city": "Denver",
+      "state": "Colorado",
+      "nickname": "Summit",
+      "conference": "Rocky Conference",
+      "conference_id": "rocky_conference",
+      "prestige": 83,
+      "prestige_out_of": 100,
+      "colors": [
+        "Burgundy",
+        "Gold"
+      ],
+      "arena": "Summit Arena",
+      "arena_capacity": 16000,
+      "region": "Rocky Mountain Region",
+      "logo": "logos/front_range_university.svg",
+      "offensive_style": "Motion",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_015"
+      ]
+    },
+    {
+      "id": "utah_mountain_state",
+      "school": "Utah Mountain State",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "nickname": "Pioneers",
+      "conference": "Rocky Conference",
+      "conference_id": "rocky_conference",
+      "prestige": 78,
+      "prestige_out_of": 100,
+      "colors": [
+        "Red",
+        "White"
+      ],
+      "arena": "Pioneers Arena",
+      "arena_capacity": 14500,
+      "region": "Rocky Mountain Region",
+      "logo": "logos/utah_mountain_state.svg",
+      "offensive_style": "4-Out 1-In",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_016"
+      ]
+    },
+    {
+      "id": "montana_frontier_university",
+      "school": "Montana Frontier University",
+      "city": "Bozeman",
+      "state": "Montana",
+      "nickname": "Grizzlies",
+      "conference": "Rocky Conference",
+      "conference_id": "rocky_conference",
+      "prestige": 72,
+      "prestige_out_of": 100,
+      "colors": [
+        "Copper",
+        "Navy"
+      ],
+      "arena": "Grizzlies Arena",
+      "arena_capacity": 11500,
+      "region": "Rocky Mountain Region",
+      "logo": "logos/montana_frontier_university.svg",
+      "offensive_style": "Pace-and-Space",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_047"
+      ]
+    },
+    {
+      "id": "wyoming_basin_college",
+      "school": "Wyoming Basin College",
+      "city": "Casper",
+      "state": "Wyoming",
+      "nickname": "Outlaws",
+      "conference": "Rocky Conference",
+      "conference_id": "rocky_conference",
+      "prestige": 68,
+      "prestige_out_of": 100,
+      "colors": [
+        "Brown",
+        "Gold"
+      ],
+      "arena": "Outlaws Arena",
+      "arena_capacity": 9800,
+      "region": "Rocky Mountain Region",
+      "logo": "logos/wyoming_basin_college.svg",
+      "offensive_style": "Princeton",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_047"
+      ]
+    },
+    {
+      "id": "colorado_plateau_state",
+      "school": "Colorado Plateau State",
+      "city": "Grand Junction",
+      "state": "Colorado",
+      "nickname": "Ravens",
+      "conference": "Rocky Conference",
+      "conference_id": "rocky_conference",
+      "prestige": 65,
+      "prestige_out_of": 100,
+      "colors": [
+        "Black",
+        "Gold"
+      ],
+      "arena": "Ravens Arena",
+      "arena_capacity": 9200,
+      "region": "Rocky Mountain Region",
+      "logo": "logos/colorado_plateau_state.svg",
+      "offensive_style": "Fast Break",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_015"
+      ]
+    },
+    {
+      "id": "idaho_highlands_university",
+      "school": "Idaho Highlands University",
+      "city": "Boise",
+      "state": "Idaho",
+      "nickname": "Wolves",
+      "conference": "Rocky Conference",
+      "conference_id": "rocky_conference",
+      "prestige": 61,
+      "prestige_out_of": 100,
+      "colors": [
+        "Blue",
+        "Orange"
+      ],
+      "arena": "Wolves Arena",
+      "arena_capacity": 11000,
+      "region": "Rocky Mountain Region",
+      "logo": "logos/idaho_highlands_university.svg",
+      "offensive_style": "Post-Centric",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_016"
+      ]
+    },
+    {
+      "id": "nevada_mountain_college",
+      "school": "Nevada Mountain College",
+      "city": "Reno",
+      "state": "Nevada",
+      "nickname": "Silverhawks",
+      "conference": "Rocky Conference",
+      "conference_id": "rocky_conference",
+      "prestige": 58,
+      "prestige_out_of": 100,
+      "colors": [
+        "Silver",
+        "Navy"
+      ],
+      "arena": "Silverhawks Arena",
+      "arena_capacity": 10000,
+      "region": "Rocky Mountain Region",
+      "logo": "logos/nevada_mountain_college.svg",
+      "offensive_style": "Flex",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_048"
+      ]
+    },
+    {
+      "id": "new_mexico_peaks_university",
+      "school": "New Mexico Peaks University",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "nickname": "Coyotes",
+      "conference": "Rocky Conference",
+      "conference_id": "rocky_conference",
+      "prestige": 55,
+      "prestige_out_of": 100,
+      "colors": [
+        "Turquoise",
+        "Red"
+      ],
+      "arena": "Coyotes Arena",
+      "arena_capacity": 9000,
+      "region": "Rocky Mountain Region",
+      "logo": "logos/new_mexico_peaks_university.svg",
+      "offensive_style": "Triangle",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_048"
+      ]
+    },
+    {
+      "id": "utah_valley_tech",
+      "school": "Utah Valley Tech",
+      "city": "Provo",
+      "state": "Utah",
+      "nickname": "Falcons",
+      "conference": "Rocky Conference",
+      "conference_id": "rocky_conference",
+      "prestige": 51,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "White"
+      ],
+      "arena": "Falcons Arena",
+      "arena_capacity": 8300,
+      "region": "Rocky Mountain Region",
+      "logo": "logos/utah_valley_tech.svg",
+      "offensive_style": "Motion",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_049"
+      ]
+    },
+    {
+      "id": "montana_northern_college",
+      "school": "Montana Northern College",
+      "city": "Missoula",
+      "state": "Montana",
+      "nickname": "Timberwolves",
+      "conference": "Rocky Conference",
+      "conference_id": "rocky_conference",
+      "prestige": 47,
+      "prestige_out_of": 100,
+      "colors": [
+        "Forest Green",
+        "Gold"
+      ],
+      "arena": "Timberwolves Arena",
+      "arena_capacity": 7600,
+      "region": "Rocky Mountain Region",
+      "logo": "logos/montana_northern_college.svg",
+      "offensive_style": "4-Out 1-In",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_049"
+      ]
+    },
+    {
+      "id": "colorado_springs_university",
+      "school": "Colorado Springs University",
+      "city": "Colorado Springs",
+      "state": "Colorado",
+      "nickname": "Knights",
+      "conference": "Rocky Conference",
+      "conference_id": "rocky_conference",
+      "prestige": 43,
+      "prestige_out_of": 100,
+      "colors": [
+        "Black",
+        "Sky Blue"
+      ],
+      "arena": "Knights Arena",
+      "arena_capacity": 8800,
+      "region": "Rocky Mountain Region",
+      "logo": "logos/colorado_springs_university.svg",
+      "offensive_style": "Pace-and-Space",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_050"
+      ]
+    },
+    {
+      "id": "idaho_frontier_college",
+      "school": "Idaho Frontier College",
+      "city": "Idaho Falls",
+      "state": "Idaho",
+      "nickname": "Bison",
+      "conference": "Rocky Conference",
+      "conference_id": "rocky_conference",
+      "prestige": 36,
+      "prestige_out_of": 100,
+      "colors": [
+        "Green",
+        "Gold"
+      ],
+      "arena": "Bison Arena",
+      "arena_capacity": 6500,
+      "region": "Rocky Mountain Region",
+      "logo": "logos/idaho_frontier_college.svg",
+      "offensive_style": "Princeton",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_050"
+      ]
+    },
+    {
+      "id": "heartland_state_university",
+      "school": "Heartland State University",
+      "city": "Kansas City",
+      "state": "Missouri",
+      "nickname": "Warriors",
+      "conference": "Midwest Conference",
+      "conference_id": "midwest_conference",
+      "prestige": 80,
+      "prestige_out_of": 100,
+      "colors": [
+        "Royal Blue",
+        "Gold"
+      ],
+      "arena": "Warriors Arena",
+      "arena_capacity": 14500,
+      "region": "Midwest",
+      "logo": "logos/heartland_state_university.svg",
+      "offensive_style": "Fast Break",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_017"
+      ]
+    },
+    {
+      "id": "great_plains_university",
+      "school": "Great Plains University",
+      "city": "Omaha",
+      "state": "Nebraska",
+      "nickname": "Stampede",
+      "conference": "Midwest Conference",
+      "conference_id": "midwest_conference",
+      "prestige": 76,
+      "prestige_out_of": 100,
+      "colors": [
+        "Scarlet",
+        "Black"
+      ],
+      "arena": "Stampede Arena",
+      "arena_capacity": 13000,
+      "region": "Midwest",
+      "logo": "logos/great_plains_university.svg",
+      "offensive_style": "Post-Centric",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_017"
+      ]
+    },
+    {
+      "id": "iowa_central_college",
+      "school": "Iowa Central College",
+      "city": "Des Moines",
+      "state": "Iowa",
+      "nickname": "Cyclones",
+      "conference": "Midwest Conference",
+      "conference_id": "midwest_conference",
+      "prestige": 72,
+      "prestige_out_of": 100,
+      "colors": [
+        "Cardinal",
+        "Gold"
+      ],
+      "arena": "Cyclones Arena",
+      "arena_capacity": 11800,
+      "region": "Midwest",
+      "logo": "logos/iowa_central_college.svg",
+      "offensive_style": "Flex",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_018"
+      ]
+    },
+    {
+      "id": "missouri_valley_state",
+      "school": "Missouri Valley State",
+      "city": "Springfield",
+      "state": "Missouri",
+      "nickname": "Lions",
+      "conference": "Midwest Conference",
+      "conference_id": "midwest_conference",
+      "prestige": 68,
+      "prestige_out_of": 100,
+      "colors": [
+        "Maroon",
+        "White"
+      ],
+      "arena": "Lions Arena",
+      "arena_capacity": 10500,
+      "region": "Midwest",
+      "logo": "logos/missouri_valley_state.svg",
+      "offensive_style": "Triangle",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_018"
+      ]
+    },
+    {
+      "id": "kansas_prairie_university",
+      "school": "Kansas Prairie University",
+      "city": "Wichita",
+      "state": "Kansas",
+      "nickname": "Bison",
+      "conference": "Midwest Conference",
+      "conference_id": "midwest_conference",
+      "prestige": 65,
+      "prestige_out_of": 100,
+      "colors": [
+        "Blue",
+        "Gold"
+      ],
+      "arena": "Bison Arena",
+      "arena_capacity": 11200,
+      "region": "Midwest",
+      "logo": "logos/kansas_prairie_university.svg",
+      "offensive_style": "Motion",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_051"
+      ]
+    },
+    {
+      "id": "nebraska_frontier_college",
+      "school": "Nebraska Frontier College",
+      "city": "Lincoln",
+      "state": "Nebraska",
+      "nickname": "Pioneers",
+      "conference": "Midwest Conference",
+      "conference_id": "midwest_conference",
+      "prestige": 61,
+      "prestige_out_of": 100,
+      "colors": [
+        "Red",
+        "Cream"
+      ],
+      "arena": "Pioneers Arena",
+      "arena_capacity": 9000,
+      "region": "Midwest",
+      "logo": "logos/nebraska_frontier_college.svg",
+      "offensive_style": "4-Out 1-In",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_051"
+      ]
+    },
+    {
+      "id": "illinois_prairie_state",
+      "school": "Illinois Prairie State",
+      "city": "Peoria",
+      "state": "Illinois",
+      "nickname": "Prairie Dogs",
+      "conference": "Midwest Conference",
+      "conference_id": "midwest_conference",
+      "prestige": 58,
+      "prestige_out_of": 100,
+      "colors": [
+        "Green",
+        "Gold"
+      ],
+      "arena": "Prairie Dogs Arena",
+      "arena_capacity": 8200,
+      "region": "Midwest",
+      "logo": "logos/illinois_prairie_state.svg",
+      "offensive_style": "Pace-and-Space",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_052"
+      ]
+    },
+    {
+      "id": "ohio_river_college",
+      "school": "Ohio River College",
+      "city": "Cincinnati",
+      "state": "Ohio",
+      "nickname": "Riverhawks",
+      "conference": "Midwest Conference",
+      "conference_id": "midwest_conference",
+      "prestige": 54,
+      "prestige_out_of": 100,
+      "colors": [
+        "Blue",
+        "Orange"
+      ],
+      "arena": "Riverhawks Arena",
+      "arena_capacity": 9700,
+      "region": "Midwest",
+      "logo": "logos/ohio_river_college.svg",
+      "offensive_style": "Princeton",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_052"
+      ]
+    },
+    {
+      "id": "indiana_prairie_university",
+      "school": "Indiana Prairie University",
+      "city": "Fort Wayne",
+      "state": "Indiana",
+      "nickname": "Mustangs",
+      "conference": "Midwest Conference",
+      "conference_id": "midwest_conference",
+      "prestige": 50,
+      "prestige_out_of": 100,
+      "colors": [
+        "Black",
+        "Gold"
+      ],
+      "arena": "Mustangs Arena",
+      "arena_capacity": 7800,
+      "region": "Midwest",
+      "logo": "logos/indiana_prairie_university.svg",
+      "offensive_style": "Fast Break",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_053"
+      ]
+    },
+    {
+      "id": "wisconsin_central_college",
+      "school": "Wisconsin Central College",
+      "city": "Green Bay",
+      "state": "Wisconsin",
+      "nickname": "Foxes",
+      "conference": "Midwest Conference",
+      "conference_id": "midwest_conference",
+      "prestige": 47,
+      "prestige_out_of": 100,
+      "colors": [
+        "Green",
+        "White"
+      ],
+      "arena": "Foxes Arena",
+      "arena_capacity": 7600,
+      "region": "Midwest",
+      "logo": "logos/wisconsin_central_college.svg",
+      "offensive_style": "Post-Centric",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_053"
+      ]
+    },
+    {
+      "id": "michigan_heartland_university",
+      "school": "Michigan Heartland University",
+      "city": "Lansing",
+      "state": "Michigan",
+      "nickname": "Wolverines",
+      "conference": "Midwest Conference",
+      "conference_id": "midwest_conference",
+      "prestige": 42,
+      "prestige_out_of": 100,
+      "colors": [
+        "Blue",
+        "Silver"
+      ],
+      "arena": "Wolverines Arena",
+      "arena_capacity": 8800,
+      "region": "Midwest",
+      "logo": "logos/michigan_heartland_university.svg",
+      "offensive_style": "Flex",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_054"
+      ]
+    },
+    {
+      "id": "minnesota_prairie_college",
+      "school": "Minnesota Prairie College",
+      "city": "Rochester",
+      "state": "Minnesota",
+      "nickname": "Lynx",
+      "conference": "Midwest Conference",
+      "conference_id": "midwest_conference",
+      "prestige": 35,
+      "prestige_out_of": 100,
+      "colors": [
+        "Purple",
+        "Gold"
+      ],
+      "arena": "Lynx Arena",
+      "arena_capacity": 6800,
+      "region": "Midwest",
+      "logo": "logos/minnesota_prairie_college.svg",
+      "offensive_style": "Triangle",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_054"
+      ]
+    },
+    {
+      "id": "atlantic_dominion_university",
+      "school": "Atlantic Dominion University",
+      "city": "Washington",
+      "state": "District of Columbia",
+      "nickname": "Eagles",
+      "conference": "Atlantic Conference",
+      "conference_id": "atlantic_conference",
+      "prestige": 91,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "Gold"
+      ],
+      "arena": "Eagles Arena",
+      "arena_capacity": 19000,
+      "region": "Mid-Atlantic/East Coast",
+      "logo": "logos/atlantic_dominion_university.svg",
+      "offensive_style": "Motion",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_019"
+      ]
+    },
+    {
+      "id": "chesapeake_commonwealth",
+      "school": "Chesapeake Commonwealth",
+      "city": "Baltimore",
+      "state": "Maryland",
+      "nickname": "Crabs",
+      "conference": "Atlantic Conference",
+      "conference_id": "atlantic_conference",
+      "prestige": 87,
+      "prestige_out_of": 100,
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "arena": "Crabs Arena",
+      "arena_capacity": 17500,
+      "region": "Mid-Atlantic/East Coast",
+      "logo": "logos/chesapeake_commonwealth.svg",
+      "offensive_style": "4-Out 1-In",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_019"
+      ]
+    },
+    {
+      "id": "virginia_atlantic_university",
+      "school": "Virginia Atlantic University",
+      "city": "Norfolk",
+      "state": "Virginia",
+      "nickname": "Admirals",
+      "conference": "Atlantic Conference",
+      "conference_id": "atlantic_conference",
+      "prestige": 85,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "Gold"
+      ],
+      "arena": "Admirals Arena",
+      "arena_capacity": 16000,
+      "region": "Mid-Atlantic/East Coast",
+      "logo": "logos/virginia_atlantic_university.svg",
+      "offensive_style": "Pace-and-Space",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_020"
+      ]
+    },
+    {
+      "id": "delaware_valley_state",
+      "school": "Delaware Valley State",
+      "city": "Wilmington",
+      "state": "Delaware",
+      "nickname": "Bluejays",
+      "conference": "Atlantic Conference",
+      "conference_id": "atlantic_conference",
+      "prestige": 78,
+      "prestige_out_of": 100,
+      "colors": [
+        "Royal Blue",
+        "Gold"
+      ],
+      "arena": "Bluejays Arena",
+      "arena_capacity": 13200,
+      "region": "Mid-Atlantic/East Coast",
+      "logo": "logos/delaware_valley_state.svg",
+      "offensive_style": "Princeton",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_055"
+      ]
+    },
+    {
+      "id": "jersey_shore_university",
+      "school": "Jersey Shore University",
+      "city": "Atlantic City",
+      "state": "New Jersey",
+      "nickname": "Sharks",
+      "conference": "Atlantic Conference",
+      "conference_id": "atlantic_conference",
+      "prestige": 74,
+      "prestige_out_of": 100,
+      "colors": [
+        "Teal",
+        "Navy"
+      ],
+      "arena": "Sharks Arena",
+      "arena_capacity": 12500,
+      "region": "Mid-Atlantic/East Coast",
+      "logo": "logos/jersey_shore_university.svg",
+      "offensive_style": "Fast Break",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_055"
+      ]
+    },
+    {
+      "id": "penn_atlantic_college",
+      "school": "Penn Atlantic College",
+      "city": "Philadelphia",
+      "state": "Pennsylvania",
+      "nickname": "Liberty",
+      "conference": "Atlantic Conference",
+      "conference_id": "atlantic_conference",
+      "prestige": 72,
+      "prestige_out_of": 100,
+      "colors": [
+        "Red",
+        "Blue"
+      ],
+      "arena": "Liberty Arena",
+      "arena_capacity": 15000,
+      "region": "Mid-Atlantic/East Coast",
+      "logo": "logos/penn_atlantic_college.svg",
+      "offensive_style": "Post-Centric",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_056"
+      ]
+    },
+    {
+      "id": "maryland_capital_university",
+      "school": "Maryland Capital University",
+      "city": "Annapolis",
+      "state": "Maryland",
+      "nickname": "Navigators",
+      "conference": "Atlantic Conference",
+      "conference_id": "atlantic_conference",
+      "prestige": 68,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "Silver"
+      ],
+      "arena": "Navigators Arena",
+      "arena_capacity": 11000,
+      "region": "Mid-Atlantic/East Coast",
+      "logo": "logos/maryland_capital_university.svg",
+      "offensive_style": "Flex",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_056"
+      ]
+    },
+    {
+      "id": "virginia_tidewater_college",
+      "school": "Virginia Tidewater College",
+      "city": "Richmond",
+      "state": "Virginia",
+      "nickname": "Tide",
+      "conference": "Atlantic Conference",
+      "conference_id": "atlantic_conference",
+      "prestige": 64,
+      "prestige_out_of": 100,
+      "colors": [
+        "Teal",
+        "White"
+      ],
+      "arena": "Tide Arena",
+      "arena_capacity": 9800,
+      "region": "Mid-Atlantic/East Coast",
+      "logo": "logos/virginia_tidewater_college.svg",
+      "offensive_style": "Triangle",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_020"
+      ]
+    },
+    {
+      "id": "new_jersey_highlands",
+      "school": "New Jersey Highlands",
+      "city": "Newark",
+      "state": "New Jersey",
+      "nickname": "Highlanders",
+      "conference": "Atlantic Conference",
+      "conference_id": "atlantic_conference",
+      "prestige": 59,
+      "prestige_out_of": 100,
+      "colors": [
+        "Purple",
+        "Gold"
+      ],
+      "arena": "Highlanders Arena",
+      "arena_capacity": 9200,
+      "region": "Mid-Atlantic/East Coast",
+      "logo": "logos/new_jersey_highlands.svg",
+      "offensive_style": "Motion",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_057"
+      ]
+    },
+    {
+      "id": "delmarva_state",
+      "school": "Delmarva State",
+      "city": "Dover",
+      "state": "Delaware",
+      "nickname": "Hawks",
+      "conference": "Atlantic Conference",
+      "conference_id": "atlantic_conference",
+      "prestige": 52,
+      "prestige_out_of": 100,
+      "colors": [
+        "Green",
+        "Gold"
+      ],
+      "arena": "Hawks Arena",
+      "arena_capacity": 7600,
+      "region": "Mid-Atlantic/East Coast",
+      "logo": "logos/delmarva_state.svg",
+      "offensive_style": "4-Out 1-In",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_057"
+      ]
+    },
+    {
+      "id": "potomac_valley_college",
+      "school": "Potomac Valley College",
+      "city": "Hagerstown",
+      "state": "Maryland",
+      "nickname": "Mountaineers",
+      "conference": "Atlantic Conference",
+      "conference_id": "atlantic_conference",
+      "prestige": 45,
+      "prestige_out_of": 100,
+      "colors": [
+        "Forest Green",
+        "White"
+      ],
+      "arena": "Mountaineers Arena",
+      "arena_capacity": 6800,
+      "region": "Mid-Atlantic/East Coast",
+      "logo": "logos/potomac_valley_college.svg",
+      "offensive_style": "Pace-and-Space",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_058"
+      ]
+    },
+    {
+      "id": "atlantic_cape_university",
+      "school": "Atlantic Cape University",
+      "city": "Cape May",
+      "state": "New Jersey",
+      "nickname": "Mariners",
+      "conference": "Atlantic Conference",
+      "conference_id": "atlantic_conference",
+      "prestige": 39,
+      "prestige_out_of": 100,
+      "colors": [
+        "Sea Blue",
+        "Orange"
+      ],
+      "arena": "Mariners Arena",
+      "arena_capacity": 6200,
+      "region": "Mid-Atlantic/East Coast",
+      "logo": "logos/atlantic_cape_university.svg",
+      "offensive_style": "Princeton",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_058"
+      ]
+    },
+    {
+      "id": "pacific_crown_university",
+      "school": "Pacific Crown University",
+      "city": "Los Angeles",
+      "state": "California",
+      "nickname": "Royals",
+      "conference": "Pacific Conference",
+      "conference_id": "pacific_conference",
+      "prestige": 90,
+      "prestige_out_of": 100,
+      "colors": [
+        "Purple",
+        "Gold"
+      ],
+      "arena": "Royals Arena",
+      "arena_capacity": 20500,
+      "region": "Pacific Coast",
+      "logo": "logos/pacific_crown_university.svg",
+      "offensive_style": "Fast Break",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_021"
+      ]
+    },
+    {
+      "id": "cascade_state_university",
+      "school": "Cascade State University",
+      "city": "Seattle",
+      "state": "Washington",
+      "nickname": "Evergreens",
+      "conference": "Pacific Conference",
+      "conference_id": "pacific_conference",
+      "prestige": 84,
+      "prestige_out_of": 100,
+      "colors": [
+        "Forest Green",
+        "Gold"
+      ],
+      "arena": "Evergreens Arena",
+      "arena_capacity": 17500,
+      "region": "Pacific Coast",
+      "logo": "logos/cascade_state_university.svg",
+      "offensive_style": "Post-Centric",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_022"
+      ]
+    },
+    {
+      "id": "golden_coast_university",
+      "school": "Golden Coast University",
+      "city": "San Diego",
+      "state": "California",
+      "nickname": "Breakers",
+      "conference": "Pacific Conference",
+      "conference_id": "pacific_conference",
+      "prestige": 81,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "Gold"
+      ],
+      "arena": "Breakers Arena",
+      "arena_capacity": 15500,
+      "region": "Pacific Coast",
+      "logo": "logos/golden_coast_university.svg",
+      "offensive_style": "Flex",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_021"
+      ]
+    },
+    {
+      "id": "oregon_pacific_college",
+      "school": "Oregon Pacific College",
+      "city": "Portland",
+      "state": "Oregon",
+      "nickname": "Pioneers",
+      "conference": "Pacific Conference",
+      "conference_id": "pacific_conference",
+      "prestige": 77,
+      "prestige_out_of": 100,
+      "colors": [
+        "Green",
+        "Yellow"
+      ],
+      "arena": "Pioneers Arena",
+      "arena_capacity": 14200,
+      "region": "Pacific Coast",
+      "logo": "logos/oregon_pacific_college.svg",
+      "offensive_style": "Triangle",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_022"
+      ]
+    },
+    {
+      "id": "bay_area_state",
+      "school": "Bay Area State",
+      "city": "San Jose",
+      "state": "California",
+      "nickname": "Quakes",
+      "conference": "Pacific Conference",
+      "conference_id": "pacific_conference",
+      "prestige": 74,
+      "prestige_out_of": 100,
+      "colors": [
+        "Black",
+        "Teal"
+      ],
+      "arena": "Quakes Arena",
+      "arena_capacity": 13800,
+      "region": "Pacific Coast",
+      "logo": "logos/bay_area_state.svg",
+      "offensive_style": "Motion",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_059"
+      ]
+    },
+    {
+      "id": "puget_sound_university",
+      "school": "Puget Sound University",
+      "city": "Tacoma",
+      "state": "Washington",
+      "nickname": "Seawolves",
+      "conference": "Pacific Conference",
+      "conference_id": "pacific_conference",
+      "prestige": 69,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "Silver"
+      ],
+      "arena": "Seawolves Arena",
+      "arena_capacity": 11800,
+      "region": "Pacific Coast",
+      "logo": "logos/puget_sound_university.svg",
+      "offensive_style": "4-Out 1-In",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_059"
+      ]
+    },
+    {
+      "id": "sierra_nevada_college",
+      "school": "Sierra Nevada College",
+      "city": "Sacramento",
+      "state": "California",
+      "nickname": "Miners",
+      "conference": "Pacific Conference",
+      "conference_id": "pacific_conference",
+      "prestige": 63,
+      "prestige_out_of": 100,
+      "colors": [
+        "Silver",
+        "Blue"
+      ],
+      "arena": "Miners Arena",
+      "arena_capacity": 9800,
+      "region": "Pacific Coast",
+      "logo": "logos/sierra_nevada_college.svg",
+      "offensive_style": "Pace-and-Space",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_060"
+      ]
+    },
+    {
+      "id": "willamette_state",
+      "school": "Willamette State",
+      "city": "Salem",
+      "state": "Oregon",
+      "nickname": "Falcons",
+      "conference": "Pacific Conference",
+      "conference_id": "pacific_conference",
+      "prestige": 59,
+      "prestige_out_of": 100,
+      "colors": [
+        "Red",
+        "Black"
+      ],
+      "arena": "Falcons Arena",
+      "arena_capacity": 8600,
+      "region": "Pacific Coast",
+      "logo": "logos/willamette_state.svg",
+      "offensive_style": "Princeton",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_060"
+      ]
+    },
+    {
+      "id": "redwood_university",
+      "school": "Redwood University",
+      "city": "Eureka",
+      "state": "California",
+      "nickname": "Redwoods",
+      "conference": "Pacific Conference",
+      "conference_id": "pacific_conference",
+      "prestige": 53,
+      "prestige_out_of": 100,
+      "colors": [
+        "Forest Green",
+        "Cream"
+      ],
+      "arena": "Redwoods Arena",
+      "arena_capacity": 7400,
+      "region": "Pacific Coast",
+      "logo": "logos/redwood_university.svg",
+      "offensive_style": "Fast Break",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_061"
+      ]
+    },
+    {
+      "id": "columbia_coast_college",
+      "school": "Columbia Coast College",
+      "city": "Astoria",
+      "state": "Oregon",
+      "nickname": "Mariners",
+      "conference": "Pacific Conference",
+      "conference_id": "pacific_conference",
+      "prestige": 48,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "Sky Blue"
+      ],
+      "arena": "Mariners Arena",
+      "arena_capacity": 6800,
+      "region": "Pacific Coast",
+      "logo": "logos/columbia_coast_college.svg",
+      "offensive_style": "Post-Centric",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_061"
+      ]
+    },
+    {
+      "id": "olympic_peninsula_university",
+      "school": "Olympic Peninsula University",
+      "city": "Bremerton",
+      "state": "Washington",
+      "nickname": "Wolves",
+      "conference": "Pacific Conference",
+      "conference_id": "pacific_conference",
+      "prestige": 42,
+      "prestige_out_of": 100,
+      "colors": [
+        "Royal Blue",
+        "Gray"
+      ],
+      "arena": "Wolves Arena",
+      "arena_capacity": 6100,
+      "region": "Pacific Coast",
+      "logo": "logos/olympic_peninsula_university.svg",
+      "offensive_style": "Flex",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_062"
+      ]
+    },
+    {
+      "id": "desert_pacific_state",
+      "school": "Desert Pacific State",
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "nickname": "Scorpions",
+      "conference": "Pacific Conference",
+      "conference_id": "pacific_conference",
+      "prestige": 36,
+      "prestige_out_of": 100,
+      "colors": [
+        "Scarlet",
+        "Black"
+      ],
+      "arena": "Scorpions Arena",
+      "arena_capacity": 7200,
+      "region": "Pacific Coast",
+      "logo": "logos/desert_pacific_state.svg",
+      "offensive_style": "Triangle",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_062"
+      ]
+    },
+    {
+      "id": "texas_republic_university",
+      "school": "Texas Republic University",
+      "city": "Dallas",
+      "state": "Texas",
+      "nickname": "Rangers",
+      "conference": "Midsouth Conference",
+      "conference_id": "midsouth_conference",
+      "prestige": 86,
+      "prestige_out_of": 100,
+      "colors": [
+        "Burnt Orange",
+        "White"
+      ],
+      "arena": "Rangers Arena",
+      "arena_capacity": 18000,
+      "region": "South-Central",
+      "logo": "logos/texas_republic_university.svg",
+      "offensive_style": "Motion",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_023",
+        "rivalry_031"
+      ]
+    },
+    {
+      "id": "oklahoma_heartland_state",
+      "school": "Oklahoma Heartland State",
+      "city": "Oklahoma City",
+      "state": "Oklahoma",
+      "nickname": "Sooners",
+      "conference": "Midsouth Conference",
+      "conference_id": "midsouth_conference",
+      "prestige": 78,
+      "prestige_out_of": 100,
+      "colors": [
+        "Crimson",
+        "Cream"
+      ],
+      "arena": "Sooners Arena",
+      "arena_capacity": 14500,
+      "region": "South-Central",
+      "logo": "logos/oklahoma_heartland_state.svg",
+      "offensive_style": "4-Out 1-In",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_023"
+      ]
+    },
+    {
+      "id": "arkansas_metro_university",
+      "school": "Arkansas Metro University",
+      "city": "Fayetteville",
+      "state": "Arkansas",
+      "nickname": "Hawks",
+      "conference": "Midsouth Conference",
+      "conference_id": "midsouth_conference",
+      "prestige": 74,
+      "prestige_out_of": 100,
+      "colors": [
+        "Red",
+        "Black"
+      ],
+      "arena": "Hawks Arena",
+      "arena_capacity": 13000,
+      "region": "South-Central",
+      "logo": "logos/arkansas_metro_university.svg",
+      "offensive_style": "Pace-and-Space",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_024"
+      ]
+    },
+    {
+      "id": "texas_gulf_prairie",
+      "school": "Texas Gulf Prairie",
+      "city": "Houston",
+      "state": "Texas",
+      "nickname": "Coyotes",
+      "conference": "Midsouth Conference",
+      "conference_id": "midsouth_conference",
+      "prestige": 71,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "Orange"
+      ],
+      "arena": "Coyotes Arena",
+      "arena_capacity": 15000,
+      "region": "South-Central",
+      "logo": "logos/texas_gulf_prairie.svg",
+      "offensive_style": "Princeton",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_024"
+      ]
+    },
+    {
+      "id": "oklahoma_panhandle_college",
+      "school": "Oklahoma Panhandle College",
+      "city": "Tulsa",
+      "state": "Oklahoma",
+      "nickname": "Drillers",
+      "conference": "Midsouth Conference",
+      "conference_id": "midsouth_conference",
+      "prestige": 65,
+      "prestige_out_of": 100,
+      "colors": [
+        "Blue",
+        "Gold"
+      ],
+      "arena": "Drillers Arena",
+      "arena_capacity": 10000,
+      "region": "South-Central",
+      "logo": "logos/oklahoma_panhandle_college.svg",
+      "offensive_style": "Fast Break",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_063"
+      ]
+    },
+    {
+      "id": "north_texas_state_college",
+      "school": "North Texas State College",
+      "city": "Denton",
+      "state": "Texas",
+      "nickname": "Bulls",
+      "conference": "Midsouth Conference",
+      "conference_id": "midsouth_conference",
+      "prestige": 61,
+      "prestige_out_of": 100,
+      "colors": [
+        "Green",
+        "Gold"
+      ],
+      "arena": "Bulls Arena",
+      "arena_capacity": 11200,
+      "region": "South-Central",
+      "logo": "logos/north_texas_state_college.svg",
+      "offensive_style": "Post-Centric",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_063"
+      ]
+    },
+    {
+      "id": "louisiana_prairie_university",
+      "school": "Louisiana Prairie University",
+      "city": "Shreveport",
+      "state": "Louisiana",
+      "nickname": "Gators",
+      "conference": "Midsouth Conference",
+      "conference_id": "midsouth_conference",
+      "prestige": 57,
+      "prestige_out_of": 100,
+      "colors": [
+        "Purple",
+        "Gold"
+      ],
+      "arena": "Gators Arena",
+      "arena_capacity": 9000,
+      "region": "South-Central",
+      "logo": "logos/louisiana_prairie_university.svg",
+      "offensive_style": "Flex",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_064"
+      ]
+    },
+    {
+      "id": "texas_hill_country_university",
+      "school": "Texas Hill Country University",
+      "city": "San Antonio",
+      "state": "Texas",
+      "nickname": "Longhorns",
+      "conference": "Midsouth Conference",
+      "conference_id": "midsouth_conference",
+      "prestige": 53,
+      "prestige_out_of": 100,
+      "colors": [
+        "Burnt Orange",
+        "Cream"
+      ],
+      "arena": "Longhorns Arena",
+      "arena_capacity": 10500,
+      "region": "South-Central",
+      "logo": "logos/texas_hill_country_university.svg",
+      "offensive_style": "Triangle",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_064"
+      ]
+    },
+    {
+      "id": "mississippi_central_state",
+      "school": "Mississippi Central State",
+      "city": "Meridian",
+      "state": "Mississippi",
+      "nickname": "Generals",
+      "conference": "Midsouth Conference",
+      "conference_id": "midsouth_conference",
+      "prestige": 49,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "Silver"
+      ],
+      "arena": "Generals Arena",
+      "arena_capacity": 7800,
+      "region": "South-Central",
+      "logo": "logos/mississippi_central_state.svg",
+      "offensive_style": "Motion",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_065"
+      ]
+    },
+    {
+      "id": "arkansas_delta_college",
+      "school": "Arkansas Delta College",
+      "city": "Jonesboro",
+      "state": "Arkansas",
+      "nickname": "Rivercats",
+      "conference": "Midsouth Conference",
+      "conference_id": "midsouth_conference",
+      "prestige": 44,
+      "prestige_out_of": 100,
+      "colors": [
+        "Maroon",
+        "Gold"
+      ],
+      "arena": "Rivercats Arena",
+      "arena_capacity": 7200,
+      "region": "South-Central",
+      "logo": "logos/arkansas_delta_college.svg",
+      "offensive_style": "4-Out 1-In",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_065"
+      ]
+    },
+    {
+      "id": "texas_piney_woods_university",
+      "school": "Texas Piney Woods University",
+      "city": "Tyler",
+      "state": "Texas",
+      "nickname": "Timberwolves",
+      "conference": "Midsouth Conference",
+      "conference_id": "midsouth_conference",
+      "prestige": 39,
+      "prestige_out_of": 100,
+      "colors": [
+        "Green",
+        "Gold"
+      ],
+      "arena": "Timberwolves Arena",
+      "arena_capacity": 6800,
+      "region": "South-Central",
+      "logo": "logos/texas_piney_woods_university.svg",
+      "offensive_style": "Pace-and-Space",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_066"
+      ]
+    },
+    {
+      "id": "red_river_college",
+      "school": "Red River College",
+      "city": "Wichita Falls",
+      "state": "Texas",
+      "nickname": "Bison",
+      "conference": "Midsouth Conference",
+      "conference_id": "midsouth_conference",
+      "prestige": 33,
+      "prestige_out_of": 100,
+      "colors": [
+        "Red",
+        "White"
+      ],
+      "arena": "Bison Arena",
+      "arena_capacity": 6000,
+      "region": "South-Central",
+      "logo": "logos/red_river_college.svg",
+      "offensive_style": "Princeton",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_066"
+      ]
+    },
+    {
+      "id": "gulf_state_university",
+      "school": "Gulf State University",
+      "city": "Mobile",
+      "state": "Alabama",
+      "nickname": "Dolphins",
+      "conference": "Gulf Coast Conference",
+      "conference_id": "gulf_coast_conference",
+      "prestige": 55,
+      "prestige_out_of": 100,
+      "colors": [
+        "Aqua",
+        "Orange"
+      ],
+      "arena": "Dolphins Arena",
+      "arena_capacity": 10500,
+      "region": "Gulf Coast",
+      "logo": "logos/gulf_state_university.svg",
+      "offensive_style": "Fast Break",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_025",
+        "rivalry_029"
+      ]
+    },
+    {
+      "id": "mississippi_coast_college",
+      "school": "Mississippi Coast College",
+      "city": "Biloxi",
+      "state": "Mississippi",
+      "nickname": "Mariners",
+      "conference": "Gulf Coast Conference",
+      "conference_id": "gulf_coast_conference",
+      "prestige": 49,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "Teal"
+      ],
+      "arena": "Mariners Arena",
+      "arena_capacity": 8200,
+      "region": "Gulf Coast",
+      "logo": "logos/mississippi_coast_college.svg",
+      "offensive_style": "Post-Centric",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_025"
+      ]
+    },
+    {
+      "id": "louisiana_bayou_state",
+      "school": "Louisiana Bayou State",
+      "city": "Lafayette",
+      "state": "Louisiana",
+      "nickname": "Crawfish",
+      "conference": "Gulf Coast Conference",
+      "conference_id": "gulf_coast_conference",
+      "prestige": 45,
+      "prestige_out_of": 100,
+      "colors": [
+        "Purple",
+        "Gold"
+      ],
+      "arena": "Crawfish Arena",
+      "arena_capacity": 8800,
+      "region": "Gulf Coast",
+      "logo": "logos/louisiana_bayou_state.svg",
+      "offensive_style": "Flex",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_026"
+      ]
+    },
+    {
+      "id": "florida_gulf_university",
+      "school": "Florida Gulf University",
+      "city": "Fort Myers",
+      "state": "Florida",
+      "nickname": "Pelicans",
+      "conference": "Gulf Coast Conference",
+      "conference_id": "gulf_coast_conference",
+      "prestige": 42,
+      "prestige_out_of": 100,
+      "colors": [
+        "Teal",
+        "White"
+      ],
+      "arena": "Pelicans Arena",
+      "arena_capacity": 9000,
+      "region": "Gulf Coast",
+      "logo": "logos/florida_gulf_university.svg",
+      "offensive_style": "Triangle",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_067"
+      ]
+    },
+    {
+      "id": "alabama_gulf_college",
+      "school": "Alabama Gulf College",
+      "city": "Gulf Shores",
+      "state": "Alabama",
+      "nickname": "Sharks",
+      "conference": "Gulf Coast Conference",
+      "conference_id": "gulf_coast_conference",
+      "prestige": 39,
+      "prestige_out_of": 100,
+      "colors": [
+        "Blue",
+        "Silver"
+      ],
+      "arena": "Sharks Arena",
+      "arena_capacity": 7200,
+      "region": "Gulf Coast",
+      "logo": "logos/alabama_gulf_college.svg",
+      "offensive_style": "Motion",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_067"
+      ]
+    },
+    {
+      "id": "texas_coastal_university",
+      "school": "Texas Coastal University",
+      "city": "Corpus Christi",
+      "state": "Texas",
+      "nickname": "Barracudas",
+      "conference": "Gulf Coast Conference",
+      "conference_id": "gulf_coast_conference",
+      "prestige": 36,
+      "prestige_out_of": 100,
+      "colors": [
+        "Navy",
+        "Aqua"
+      ],
+      "arena": "Barracudas Arena",
+      "arena_capacity": 9800,
+      "region": "Gulf Coast",
+      "logo": "logos/texas_coastal_university.svg",
+      "offensive_style": "4-Out 1-In",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_068"
+      ]
+    },
+    {
+      "id": "louisiana_coast_college",
+      "school": "Louisiana Coast College",
+      "city": "Lake Charles",
+      "state": "Louisiana",
+      "nickname": "Storm",
+      "conference": "Gulf Coast Conference",
+      "conference_id": "gulf_coast_conference",
+      "prestige": 33,
+      "prestige_out_of": 100,
+      "colors": [
+        "Blue",
+        "Gray"
+      ],
+      "arena": "Storm Arena",
+      "arena_capacity": 7000,
+      "region": "Gulf Coast",
+      "logo": "logos/louisiana_coast_college.svg",
+      "offensive_style": "Pace-and-Space",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_026",
+        "rivalry_068"
+      ]
+    },
+    {
+      "id": "florida_emerald_state",
+      "school": "Florida Emerald State",
+      "city": "Pensacola",
+      "state": "Florida",
+      "nickname": "Herons",
+      "conference": "Gulf Coast Conference",
+      "conference_id": "gulf_coast_conference",
+      "prestige": 30,
+      "prestige_out_of": 100,
+      "colors": [
+        "Green",
+        "Gold"
+      ],
+      "arena": "Herons Arena",
+      "arena_capacity": 6500,
+      "region": "Gulf Coast",
+      "logo": "logos/florida_emerald_state.svg",
+      "offensive_style": "Princeton",
+      "defensive_style": "Man-to-Man",
+      "rivalries": [
+        "rivalry_069"
+      ]
+    },
+    {
+      "id": "mississippi_sound_university",
+      "school": "Mississippi Sound University",
+      "city": "Gulfport",
+      "state": "Mississippi",
+      "nickname": "Wave",
+      "conference": "Gulf Coast Conference",
+      "conference_id": "gulf_coast_conference",
+      "prestige": 27,
+      "prestige_out_of": 100,
+      "colors": [
+        "Seafoam",
+        "Navy"
+      ],
+      "arena": "Wave Arena",
+      "arena_capacity": 6100,
+      "region": "Gulf Coast",
+      "logo": "logos/mississippi_sound_university.svg",
+      "offensive_style": "Fast Break",
+      "defensive_style": "Press",
+      "rivalries": [
+        "rivalry_069"
+      ]
+    },
+    {
+      "id": "alabama_bay_college",
+      "school": "Alabama Bay College",
+      "city": "Daphne",
+      "state": "Alabama",
+      "nickname": "Stingrays",
+      "conference": "Gulf Coast Conference",
+      "conference_id": "gulf_coast_conference",
+      "prestige": 24,
+      "prestige_out_of": 100,
+      "colors": [
+        "Royal Blue",
+        "Orange"
+      ],
+      "arena": "Stingrays Arena",
+      "arena_capacity": 5600,
+      "region": "Gulf Coast",
+      "logo": "logos/alabama_bay_college.svg",
+      "offensive_style": "Post-Centric",
+      "defensive_style": "Pack Line",
+      "rivalries": [
+        "rivalry_070"
+      ]
+    },
+    {
+      "id": "florida_pan_coast_college",
+      "school": "Florida Pan Coast College",
+      "city": "Panama City",
+      "state": "Florida",
+      "nickname": "Tarpons",
+      "conference": "Gulf Coast Conference",
+      "conference_id": "gulf_coast_conference",
+      "prestige": 20,
+      "prestige_out_of": 100,
+      "colors": [
+        "Teal",
+        "Black"
+      ],
+      "arena": "Tarpons Arena",
+      "arena_capacity": 5400,
+      "region": "Gulf Coast",
+      "logo": "logos/florida_pan_coast_college.svg",
+      "offensive_style": "Flex",
+      "defensive_style": "Switching",
+      "rivalries": [
+        "rivalry_070"
+      ]
+    },
+    {
+      "id": "gulf_prairie_university",
+      "school": "Gulf Prairie University",
+      "city": "Beaumont",
+      "state": "Texas",
+      "nickname": "Gators",
+      "conference": "Gulf Coast Conference",
+      "conference_id": "gulf_coast_conference",
+      "prestige": 16,
+      "prestige_out_of": 100,
+      "colors": [
+        "Green",
+        "Gold"
+      ],
+      "arena": "Gators Arena",
+      "arena_capacity": 5000,
+      "region": "Gulf Coast",
+      "logo": "logos/gulf_prairie_university.svg",
+      "offensive_style": "Triangle",
+      "defensive_style": "2-3 Zone",
+      "rivalries": [
+        "rivalry_031"
+      ]
+    }
+  ],
+  "rivalries": [
+    {
+      "id": "rivalry_001",
+      "name": "Southern Classic",
+      "teams": [
+        "carolina_dominion_university",
+        "tennessee_valley_university"
+      ],
+      "intensity": 99,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_002",
+      "name": "Border War",
+      "teams": [
+        "tennessee_valley_university",
+        "kentucky_commonwealth"
+      ],
+      "intensity": 94,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_003",
+      "name": "Southern Tech Rivalry",
+      "teams": [
+        "georgia_southern_tech",
+        "florida_atlantic_state"
+      ],
+      "intensity": 88,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_004",
+      "name": "Sunshine Showdown",
+      "teams": [
+        "florida_atlantic_state",
+        "florida_panhandle_university"
+      ],
+      "intensity": 91,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_005",
+      "name": "Carolina Battle",
+      "teams": [
+        "carolina_dominion_university",
+        "south_carolina_polytechnic"
+      ],
+      "intensity": 84,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_006",
+      "name": "Delta River Rivalry",
+      "teams": [
+        "mississippi_delta_university",
+        "arkansas_valley_college"
+      ],
+      "intensity": 86,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_007",
+      "name": "Bayou Border",
+      "teams": [
+        "louisiana_southern_university",
+        "alabama_central_university"
+      ],
+      "intensity": 82,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_008",
+      "name": "Northern Crown",
+      "teams": [
+        "great_lakes_national_university",
+        "empire_state_university"
+      ],
+      "intensity": 97,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_009",
+      "name": "Great Lakes War",
+      "teams": [
+        "great_lakes_national_university",
+        "ohio_northern_institute"
+      ],
+      "intensity": 95,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_010",
+      "name": "Empire Commonwealth",
+      "teams": [
+        "empire_state_university",
+        "pennsylvania_commonwealth_university"
+      ],
+      "intensity": 93,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_011",
+      "name": "New England Classic",
+      "teams": [
+        "new_england_commonwealth",
+        "connecticut_valley_university"
+      ],
+      "intensity": 90,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_012",
+      "name": "Pine Tree Cup",
+      "teams": [
+        "maine_coastal_university",
+        "pine_tree_college"
+      ],
+      "intensity": 84,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_013",
+      "name": "Blue Ridge War",
+      "teams": [
+        "blue_ridge_university",
+        "appalachian_commonwealth"
+      ],
+      "intensity": 89,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_014",
+      "name": "Tennessee Mountain Cup",
+      "teams": [
+        "cumberland_state_university",
+        "tennessee_ridge_college"
+      ],
+      "intensity": 86,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_015",
+      "name": "Colorado Summit",
+      "teams": [
+        "front_range_university",
+        "colorado_plateau_state"
+      ],
+      "intensity": 90,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_016",
+      "name": "Mountain Border",
+      "teams": [
+        "utah_mountain_state",
+        "idaho_highlands_university"
+      ],
+      "intensity": 85,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_017",
+      "name": "Heartland Classic",
+      "teams": [
+        "heartland_state_university",
+        "great_plains_university"
+      ],
+      "intensity": 88,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_018",
+      "name": "Midwest River War",
+      "teams": [
+        "iowa_central_college",
+        "missouri_valley_state"
+      ],
+      "intensity": 82,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_019",
+      "name": "Capital Classic",
+      "teams": [
+        "atlantic_dominion_university",
+        "chesapeake_commonwealth"
+      ],
+      "intensity": 94,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_020",
+      "name": "Virginia Coast Cup",
+      "teams": [
+        "virginia_atlantic_university",
+        "virginia_tidewater_college"
+      ],
+      "intensity": 87,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_021",
+      "name": "California Crown",
+      "teams": [
+        "pacific_crown_university",
+        "golden_coast_university"
+      ],
+      "intensity": 96,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_022",
+      "name": "Cascadia Classic",
+      "teams": [
+        "cascade_state_university",
+        "oregon_pacific_college"
+      ],
+      "intensity": 91,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_023",
+      "name": "Red River Classic",
+      "teams": [
+        "texas_republic_university",
+        "oklahoma_heartland_state"
+      ],
+      "intensity": 98,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_024",
+      "name": "Southwest Border",
+      "teams": [
+        "arkansas_metro_university",
+        "texas_gulf_prairie"
+      ],
+      "intensity": 82,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_025",
+      "name": "Gulf Classic",
+      "teams": [
+        "gulf_state_university",
+        "mississippi_coast_college"
+      ],
+      "intensity": 88,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_026",
+      "name": "Bayou Cup",
+      "teams": [
+        "louisiana_bayou_state",
+        "louisiana_coast_college"
+      ],
+      "intensity": 83,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_027",
+      "name": "Tennessee State War",
+      "teams": [
+        "tennessee_valley_university",
+        "cumberland_state_university"
+      ],
+      "intensity": 96,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_028",
+      "name": "Kentucky Cup",
+      "teams": [
+        "kentucky_commonwealth",
+        "bluegrass_valley_college"
+      ],
+      "intensity": 87,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_029",
+      "name": "Gulf Sunshine Rivalry",
+      "teams": [
+        "florida_atlantic_state",
+        "gulf_state_university"
+      ],
+      "intensity": 79,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_030",
+      "name": "Carolina Mountain Rivalry",
+      "teams": [
+        "carolina_dominion_university",
+        "blue_ridge_university"
+      ],
+      "intensity": 80,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_031",
+      "name": "Texas Cup",
+      "teams": [
+        "texas_republic_university",
+        "gulf_prairie_university"
+      ],
+      "intensity": 84,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_032",
+      "name": "Timberwolves vs Sharks Series",
+      "teams": [
+        "east_tennessee_college",
+        "florida_panhandle_university"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_033",
+      "name": "Voyagers vs Comets Series",
+      "teams": [
+        "michigan_lakes_university",
+        "illinois_metropolitan_university"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_034",
+      "name": "Generals vs Timberjacks Series",
+      "teams": [
+        "indiana_central_college",
+        "wisconsin_state_university"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_035",
+      "name": "Wolves vs Bison Series",
+      "teams": [
+        "minnesota_north_university",
+        "dakota_commonwealth"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_036",
+      "name": "Lumberjacks vs Mountaineers Series",
+      "teams": [
+        "maine_northern_college",
+        "vermont_highlands_university"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_037",
+      "name": "Captains vs Knights Series",
+      "teams": [
+        "rhode_island_maritime",
+        "massachusetts_institute_of_sport"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_038",
+      "name": "Granite vs Lobsters Series",
+      "teams": [
+        "granite_state_university",
+        "maine_coastal_university"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_039",
+      "name": "Foxes vs Harborhawks Series",
+      "teams": [
+        "vermont_state_college",
+        "connecticut_shore_university"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_040",
+      "name": "Falcons vs Stags Series",
+      "teams": [
+        "bay_state_university",
+        "new_hampshire_polytechnic"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_041",
+      "name": "Waves vs Revolution Series",
+      "teams": [
+        "ocean_state_college",
+        "new_england_commonwealth"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_042",
+      "name": "Mountaineers vs Highlanders Series",
+      "teams": [
+        "mountain_carolina_college",
+        "virginia_highlands_university"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_043",
+      "name": "Wildcats vs Ridgehawks Series",
+      "teams": [
+        "kentucky_mountain_state",
+        "tennessee_ridge_college"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_044",
+      "name": "River Kings vs Bears Series",
+      "teams": [
+        "ohio_valley_university",
+        "smoky_mountain_college"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_045",
+      "name": "Mountains vs Stallions Series",
+      "teams": [
+        "allegheny_state",
+        "bluegrass_valley_college"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_046",
+      "name": "Miners vs Bears Series",
+      "teams": [
+        "coal_country_university",
+        "blue_ridge_university"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_047",
+      "name": "Grizzlies vs Outlaws Series",
+      "teams": [
+        "montana_frontier_university",
+        "wyoming_basin_college"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_048",
+      "name": "Silverhawks vs Coyotes Series",
+      "teams": [
+        "nevada_mountain_college",
+        "new_mexico_peaks_university"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_049",
+      "name": "Falcons vs Timberwolves Series",
+      "teams": [
+        "utah_valley_tech",
+        "montana_northern_college"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_050",
+      "name": "Knights vs Bison Series",
+      "teams": [
+        "colorado_springs_university",
+        "idaho_frontier_college"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_051",
+      "name": "Bison vs Pioneers Series",
+      "teams": [
+        "kansas_prairie_university",
+        "nebraska_frontier_college"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_052",
+      "name": "Prairie Dogs vs Riverhawks Series",
+      "teams": [
+        "illinois_prairie_state",
+        "ohio_river_college"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_053",
+      "name": "Mustangs vs Foxes Series",
+      "teams": [
+        "indiana_prairie_university",
+        "wisconsin_central_college"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_054",
+      "name": "Wolverines vs Lynx Series",
+      "teams": [
+        "michigan_heartland_university",
+        "minnesota_prairie_college"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_055",
+      "name": "Bluejays vs Sharks Series",
+      "teams": [
+        "delaware_valley_state",
+        "jersey_shore_university"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_056",
+      "name": "Liberty vs Navigators Series",
+      "teams": [
+        "penn_atlantic_college",
+        "maryland_capital_university"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_057",
+      "name": "Highlanders vs Hawks Series",
+      "teams": [
+        "new_jersey_highlands",
+        "delmarva_state"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_058",
+      "name": "Mountaineers vs Mariners Series",
+      "teams": [
+        "potomac_valley_college",
+        "atlantic_cape_university"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_059",
+      "name": "Quakes vs Seawolves Series",
+      "teams": [
+        "bay_area_state",
+        "puget_sound_university"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_060",
+      "name": "Miners vs Falcons Series",
+      "teams": [
+        "sierra_nevada_college",
+        "willamette_state"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_061",
+      "name": "Redwoods vs Mariners Series",
+      "teams": [
+        "redwood_university",
+        "columbia_coast_college"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_062",
+      "name": "Wolves vs Scorpions Series",
+      "teams": [
+        "olympic_peninsula_university",
+        "desert_pacific_state"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_063",
+      "name": "Drillers vs Bulls Series",
+      "teams": [
+        "oklahoma_panhandle_college",
+        "north_texas_state_college"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_064",
+      "name": "Gators vs Longhorns Series",
+      "teams": [
+        "louisiana_prairie_university",
+        "texas_hill_country_university"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_065",
+      "name": "Generals vs Rivercats Series",
+      "teams": [
+        "mississippi_central_state",
+        "arkansas_delta_college"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_066",
+      "name": "Timberwolves vs Bison Series",
+      "teams": [
+        "texas_piney_woods_university",
+        "red_river_college"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_067",
+      "name": "Pelicans vs Sharks Series",
+      "teams": [
+        "florida_gulf_university",
+        "alabama_gulf_college"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_068",
+      "name": "Barracudas vs Storm Series",
+      "teams": [
+        "texas_coastal_university",
+        "louisiana_coast_college"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_069",
+      "name": "Herons vs Wave Series",
+      "teams": [
+        "florida_emerald_state",
+        "mississippi_sound_university"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    },
+    {
+      "id": "rivalry_070",
+      "name": "Stingrays vs Tarpons Series",
+      "teams": [
+        "alabama_bay_college",
+        "florida_pan_coast_college"
+      ],
+      "intensity": 68,
+      "intensity_out_of": 100,
+      "protected": true
+    }
+  ],
+  "protected_pairs": {
+    "southeastern_conference": [
+      [
+        "carolina_dominion_university",
+        "tennessee_valley_university"
+      ],
+      [
+        "tennessee_valley_university",
+        "kentucky_commonwealth"
+      ],
+      [
+        "georgia_southern_tech",
+        "florida_atlantic_state"
+      ],
+      [
+        "florida_atlantic_state",
+        "florida_panhandle_university"
+      ],
+      [
+        "carolina_dominion_university",
+        "south_carolina_polytechnic"
+      ],
+      [
+        "mississippi_delta_university",
+        "arkansas_valley_college"
+      ],
+      [
+        "louisiana_southern_university",
+        "alabama_central_university"
+      ],
+      [
+        "east_tennessee_college",
+        "florida_panhandle_university"
+      ]
+    ],
+    "northern_conference": [
+      [
+        "great_lakes_national_university",
+        "empire_state_university"
+      ],
+      [
+        "great_lakes_national_university",
+        "ohio_northern_institute"
+      ],
+      [
+        "empire_state_university",
+        "pennsylvania_commonwealth_university"
+      ],
+      [
+        "michigan_lakes_university",
+        "illinois_metropolitan_university"
+      ],
+      [
+        "indiana_central_college",
+        "wisconsin_state_university"
+      ],
+      [
+        "minnesota_north_university",
+        "dakota_commonwealth"
+      ],
+      [
+        "maine_northern_college",
+        "vermont_highlands_university"
+      ]
+    ],
+    "new_england_conference": [
+      [
+        "new_england_commonwealth",
+        "connecticut_valley_university"
+      ],
+      [
+        "maine_coastal_university",
+        "pine_tree_college"
+      ],
+      [
+        "rhode_island_maritime",
+        "massachusetts_institute_of_sport"
+      ],
+      [
+        "granite_state_university",
+        "maine_coastal_university"
+      ],
+      [
+        "vermont_state_college",
+        "connecticut_shore_university"
+      ],
+      [
+        "bay_state_university",
+        "new_hampshire_polytechnic"
+      ],
+      [
+        "ocean_state_college",
+        "new_england_commonwealth"
+      ]
+    ],
+    "appalachia_conference": [
+      [
+        "blue_ridge_university",
+        "appalachian_commonwealth"
+      ],
+      [
+        "cumberland_state_university",
+        "tennessee_ridge_college"
+      ],
+      [
+        "mountain_carolina_college",
+        "virginia_highlands_university"
+      ],
+      [
+        "kentucky_mountain_state",
+        "tennessee_ridge_college"
+      ],
+      [
+        "ohio_valley_university",
+        "smoky_mountain_college"
+      ],
+      [
+        "allegheny_state",
+        "bluegrass_valley_college"
+      ],
+      [
+        "coal_country_university",
+        "blue_ridge_university"
+      ]
+    ],
+    "rocky_conference": [
+      [
+        "front_range_university",
+        "colorado_plateau_state"
+      ],
+      [
+        "utah_mountain_state",
+        "idaho_highlands_university"
+      ],
+      [
+        "montana_frontier_university",
+        "wyoming_basin_college"
+      ],
+      [
+        "nevada_mountain_college",
+        "new_mexico_peaks_university"
+      ],
+      [
+        "utah_valley_tech",
+        "montana_northern_college"
+      ],
+      [
+        "colorado_springs_university",
+        "idaho_frontier_college"
+      ]
+    ],
+    "midwest_conference": [
+      [
+        "heartland_state_university",
+        "great_plains_university"
+      ],
+      [
+        "iowa_central_college",
+        "missouri_valley_state"
+      ],
+      [
+        "kansas_prairie_university",
+        "nebraska_frontier_college"
+      ],
+      [
+        "illinois_prairie_state",
+        "ohio_river_college"
+      ],
+      [
+        "indiana_prairie_university",
+        "wisconsin_central_college"
+      ],
+      [
+        "michigan_heartland_university",
+        "minnesota_prairie_college"
+      ]
+    ],
+    "atlantic_conference": [
+      [
+        "atlantic_dominion_university",
+        "chesapeake_commonwealth"
+      ],
+      [
+        "virginia_atlantic_university",
+        "virginia_tidewater_college"
+      ],
+      [
+        "delaware_valley_state",
+        "jersey_shore_university"
+      ],
+      [
+        "penn_atlantic_college",
+        "maryland_capital_university"
+      ],
+      [
+        "new_jersey_highlands",
+        "delmarva_state"
+      ],
+      [
+        "potomac_valley_college",
+        "atlantic_cape_university"
+      ]
+    ],
+    "pacific_conference": [
+      [
+        "pacific_crown_university",
+        "golden_coast_university"
+      ],
+      [
+        "cascade_state_university",
+        "oregon_pacific_college"
+      ],
+      [
+        "bay_area_state",
+        "puget_sound_university"
+      ],
+      [
+        "sierra_nevada_college",
+        "willamette_state"
+      ],
+      [
+        "redwood_university",
+        "columbia_coast_college"
+      ],
+      [
+        "olympic_peninsula_university",
+        "desert_pacific_state"
+      ]
+    ],
+    "midsouth_conference": [
+      [
+        "texas_republic_university",
+        "oklahoma_heartland_state"
+      ],
+      [
+        "arkansas_metro_university",
+        "texas_gulf_prairie"
+      ],
+      [
+        "oklahoma_panhandle_college",
+        "north_texas_state_college"
+      ],
+      [
+        "louisiana_prairie_university",
+        "texas_hill_country_university"
+      ],
+      [
+        "mississippi_central_state",
+        "arkansas_delta_college"
+      ],
+      [
+        "texas_piney_woods_university",
+        "red_river_college"
+      ]
+    ],
+    "gulf_coast_conference": [
+      [
+        "gulf_state_university",
+        "mississippi_coast_college"
+      ],
+      [
+        "louisiana_bayou_state",
+        "louisiana_coast_college"
+      ],
+      [
+        "florida_gulf_university",
+        "alabama_gulf_college"
+      ],
+      [
+        "texas_coastal_university",
+        "louisiana_coast_college"
+      ],
+      [
+        "florida_emerald_state",
+        "mississippi_sound_university"
+      ],
+      [
+        "alabama_bay_college",
+        "florida_pan_coast_college"
+      ]
+    ]
+  }
+}
